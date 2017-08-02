@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.qthjen.newfeedvn.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:layout_marginLeft="25dp"
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btthoisu"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/thoiSu"
+                    android:id="@+id/btThoiSu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_marginRight="25dp"
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btthegioi"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/theGioi"
+                    android:id="@+id/btTheGioi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btkinhdoanh"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/kinhDoanh"
+                    android:id="@+id/btKinhDoanh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btstartup"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/startup"
+                    android:id="@+id/btStartup"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btgiaitri"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/giaiTri"
+                    android:id="@+id/btGiaiTri"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btthethao"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/theThao"
+                    android:id="@+id/btTheThao"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btphapluat"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/phapLuat"
+                    android:id="@+id/btPhapLuat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btgiaoduc"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/giaoDuc"
+                    android:id="@+id/btGiaoDuc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btsuckhoe"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/sucKhoe"
+                    android:id="@+id/btSucKhoe"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btgiadinh"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/giaDinh"
+                    android:id="@+id/btGiaDinh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btdulich"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/duLich"
+                    android:id="@+id/btDuLich"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btkhoahoc"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/khoaHoc"
+                    android:id="@+id/btKhoaHoc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btsohoa"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/soHoa"
+                    android:id="@+id/btSoHoa"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btxe"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/xe"
+                    android:id="@+id/btXe"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:weightSum="7"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_bttamsu"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/tamSu"
+                    android:id="@+id/btTamSu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textSize="25sp"
+                    android:background="@drawable/custom_btcuoi"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:textAllCaps="false"
+                    android:text="@string/cuoi"
+                    android:id="@+id/btCuoi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>
