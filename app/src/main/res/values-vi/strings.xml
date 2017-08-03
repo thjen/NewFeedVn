@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home</string>
+    <string name="about">Thông tin</string>
+    <string name="about1">Nhà phát triển: Q.ThjeN</string>
+    <string name="about2">Ứng dụng: Tin Việt Express</string>
+    <string name="about3">Phiên bản: 1.0.0</string>
+    <string name="about4">08/03/2017</string>
+    <string name="activityAttributes">Home</string>
+    <string name="cuoi">Cười</string>
+    <string name="duLich">Du lịch</string>
+    <string name="giaDinh">Gia đình</string>
+    <string name="giaiTri">Giải trí</string>
+    <string name="giaoDuc">Giáo dục</string>
+    <string name="khoaHoc">Khoa học</string>
+    <string name="kinhDoanh">Kinh doanh</string>
+    <string name="phapLuat">Pháp luật</string>
+    <string name="soHoa">Số hóa</string>
+    <string name="startup">Startup</string>
+    <string name="sucKhoe">Sức khỏe</string>
+    <string name="tamSu">Tâm sự</string>
+    <string name="theGioi">Thế giới</string>
+    <string name="theThao">Thể thao</string>
+    <string name="thoiSu">Thời sự</string>
+    <string name="xe">Xe</string>
+
+    <string name="lbcuoi">Cười</string>
+    <string name="lbduLich">Du lịch</string>
+    <string name="lbgiaDinh">Gia đình</string>
+    <string name="lbgiaiTri">Giải trí</string>
+    <string name="lbgiaoDuc">Giáo dục</string>
+    <string name="lbkhoaHoc">Khoa học</string>
+    <string name="lbkinhDoanh">Kinh doanh</string>
+    <string name="lbphapLuat">Pháp luật</string>
+    <string name="lbsoHoa">Số hóa</string>
+    <string name="lbstartup">Startup</string>
+    <string name="lbsucKhoe">Sức khỏe</string>
+    <string name="lbtamSu">Tâm sự</string>
+    <string name="lbtheGioi">Thế giới</string>
+    <string name="lbtheThao">Thể thao</string>
+    <string name="lbthoiSu">Thời sự</string>
+    <string name="lbxe">Xe</string>
+
+</resources>

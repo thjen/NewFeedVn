@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Home</string>
+    <string name="about">About</string>
+    <string name="about1">Development: Q.ThjeN</string>
+    <string name="about2">App: NewfeedVn</string>
+    <string name="about3">Version: 1.0.0</string>
+    <string name="about4">08/03/2017</string>
+    <string name="activityAttributes">Home</string>
+    <string name="cuoi">Laugh</string>
+    <string name="duLich">Travel</string>
+    <string name="giaDinh">Family</string>
+    <string name="giaiTri">Entertainment</string>
+    <string name="giaoDuc">Education</string>
+    <string name="khoaHoc">Science</string>
+    <string name="kinhDoanh">Business</string>
+    <string name="phapLuat">Law</string>
+    <string name="soHoa">Digitizing</string>
+    <string name="startup">Startup</string>
+    <string name="sucKhoe">Health</string>
+    <string name="tamSu">Talk</string>
+    <string name="theGioi">World</string>
+    <string name="theThao">Sport</string>
+    <string name="thoiSu">News</string>
+    <string name="xe">Vehicles</string>
+
+    <string name="lbcuoi">Laugh</string>
+    <string name="lbduLich">Travel</string>
+    <string name="lbgiaDinh">Family</string>
+    <string name="lbgiaiTri">Entertainment</string>
+    <string name="lbgiaoDuc">Education</string>
+    <string name="lbkhoaHoc">Science</string>
+    <string name="lbkinhDoanh">Business</string>
+    <string name="lbphapLuat">Law</string>
+    <string name="lbsoHoa">Digitizing</string>
+    <string name="lbstartup">Startup</string>
+    <string name="lbsucKhoe">Health</string>
+    <string name="lbtamSu">Talk</string>
+    <string name="lbtheGioi">World</string>
+    <string name="lbtheThao">Sport</string>
+    <string name="lbthoiSu">News</string>
+    <string name="lbxe">Vehicles</string>
+
+
+</resources>

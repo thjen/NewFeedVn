@@ -3,6 +3,8 @@ package com.example.qthjen.newfeedvn;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -57,144 +59,128 @@ public class MainActivity extends AppCompatActivity {
         btThoiSu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url1);
-                startActivity(intent);
+
+                ButtonCenter(url1,getResources().getString(R.string.lbthoiSu) );
             }
         });
 
         btTheGioi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url2);
-                startActivity(intent);
+
+                ButtonCenter(url2,getResources().getString(R.string.lbtheGioi) );
             }
         });
 
         btKinhDoanh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url3);
-                startActivity(intent);
+
+                ButtonCenter(url3,getResources().getString(R.string.lbkinhDoanh) );
             }
         });
 
         btStartup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url4);
-                startActivity(intent);
+
+                ButtonCenter(url4,getResources().getString(R.string.lbstartup) );
             }
         });
 
         btGiaiTri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url5);
-                startActivity(intent);
+
+                ButtonCenter(url5,getResources().getString(R.string.lbgiaiTri) );
             }
         });
 
         btTheThao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url6);
-                startActivity(intent);
+
+                ButtonCenter(url6,getResources().getString(R.string.lbtheThao) );
             }
         });
 
         btPhapLuat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url7);
-                startActivity(intent);
+
+                ButtonCenter(url7,getResources().getString(R.string.lbphapLuat) );
             }
         });
 
         btGiaoDuc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url8);
-                startActivity(intent);
+
+                ButtonCenter(url8,getResources().getString(R.string.lbgiaoDuc) );
             }
         });
 
         btSucKhoe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url9);
-                startActivity(intent);
+
+                ButtonCenter(url9,getResources().getString(R.string.lbsucKhoe) );
             }
         });
 
         btGiaDinh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url10);
-                startActivity(intent);
+
+                ButtonCenter(url10,getResources().getString(R.string.lbgiaDinh) );
             }
         });
 
         btDuLich.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url11);
-                startActivity(intent);
+
+                ButtonCenter(url11,getResources().getString(R.string.lbduLich) );
             }
         });
 
         btKhoaHoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url12);
-                startActivity(intent);
+
+                ButtonCenter(url12,getResources().getString(R.string.lbkhoaHoc) );
             }
         });
 
         btSoHoa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url13);
-                startActivity(intent);
+
+                ButtonCenter(url13,getResources().getString(R.string.lbsoHoa) );
             }
         });
 
         btXe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url14);
-                startActivity(intent);
+
+                ButtonCenter(url14,getResources().getString(R.string.lbxe) );
             }
         });
 
         btTamSu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url15);
-                startActivity(intent);
+
+                ButtonCenter(url15,getResources().getString(R.string.lbtamSu) );
             }
         });
 
         btCuoi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainAttributes.class);
-                intent.putExtra("url", url16);
-                startActivity(intent);
+
+                ButtonCenter(url16,getResources().getString(R.string.lbcuoi) );
             }
         });
 
@@ -221,4 +207,32 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void ButtonCenter(String url, String title) {
+
+        Intent intent = new Intent(MainActivity.this, MainAttributes.class);
+        intent.putExtra("url", url);
+        intent.putExtra("title",title);
+        startActivity(intent);
+        overridePendingTransition(R.anim.anim_start, R.anim.anim_end);
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch ( item.getItemId() ) {
+
+            case R.id.mnAbout:startActivity(new Intent(MainActivity.this, About.class));
+                break;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }

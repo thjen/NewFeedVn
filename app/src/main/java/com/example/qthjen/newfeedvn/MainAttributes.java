@@ -47,6 +47,9 @@ public class MainAttributes extends AppCompatActivity {
             }
         });
 
+        String label = intent.getStringExtra("title");
+        setTitle(label);
+
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -54,6 +57,7 @@ public class MainAttributes extends AppCompatActivity {
                 Intent intent1 = new Intent(MainAttributes.this, MyWebView.class);
                 intent1.putExtra("link", arrayList.get(i).mLink);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.anim_start, R.anim.anim_end);
 
             }
         });
@@ -104,7 +108,7 @@ public class MainAttributes extends AppCompatActivity {
             String link  = "";
             String image = "";
 
-            for (int i = 0; i < nodeList.getLength(); i++) {
+            for (int i = 1; i < nodeList.getLength(); i++) {
 
                 Element element = (Element) nodeList.item(i);
 
